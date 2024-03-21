@@ -28,7 +28,7 @@ function showSlider(type){
     let thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item');
     
     if(type === 'next'){
-        SliderDom.appendChild(SliderItemsDom[0]);
+        SliderDom.appendChild(SliderItemsDom[0]);   
         thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
         carouselDom.classList.add('next');
     }else{
